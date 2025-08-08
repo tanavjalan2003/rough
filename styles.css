@@ -230,6 +230,26 @@ body {
     background: #005bb5;
 }
 
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.company-logo, .skills-grid img, .cert-list img {
+    height: 28px;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+.skills-grid span {
+    display: flex;
+    align-items: center;
+}
+
 /* ---------- Footer ---------- */
 .footer {
     background: #f5f5f7;
