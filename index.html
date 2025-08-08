@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanav Jalan | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Apple-style font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <h1 class="logo">Tanav Jalan</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content" data-aos="fade-up">
+            <h2>Full-Stack Developer & Data Storyteller</h2>
+            <p>Transforming ideas into scalable, impactful solutions.</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="section">
+        <div class="container" data-aos="fade-up">
+            <h2>About Me</h2>
+            <p>
+                I’m a Computer Science graduate from Arizona State University (Cum Laude, GPA 3.8/4.0),
+                passionate about building innovative solutions across AI, AR/VR, cloud computing, and full-stack development.
+                Recipient of the NaMU Scholarship, Dean’s List honors, and SUN Award for service and innovation.
+            </p>
+            <p>
+                Outside of work, I’ve won “Mr. Phoenix 2024” and thrive on blending creativity with technical problem-solving.
+            </p>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Experience</h2>
+
+            <div class="experience-grid">
+
+                <div class="experience-card" data-aos="fade-up">
+                    <h3>CohnReznick LLP</h3>
+                    <p class="role">PowerBI Developer | Jun 2025 – Present</p>
+                    <ul>
+                        <li>Designed scalable Power BI models for 12 business units with zero performance degradation.</li>
+                        <li>Integrated multiple data sources, transforming 2M+ rows per refresh with full consistency.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card" data-aos="fade-up">
+                    <h3>CohnReznick LLP</h3>
+                    <p class="role">Full Stack Developer Intern | Jan – May 2025</p>
+                    <ul>
+                        <li>Engineered responsive .NET front-ends, improving interactivity and reducing latency by 25%.</li>
+                        <li>Provisioned Azure solutions handling 10,000+ concurrent users.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card" data-aos="fade-up">
+                    <h3>Verizon</h3>
+                    <p class="role">Cloud Computing Engineer Intern | Apr – May 2024</p>
+                    <ul>
+                        <li>Built ‘Sasha’ VPN product with focus on redundancy, resiliency, and least-privilege principles.</li>
+                        <li>Enhanced VPN security with advanced application security methods.</li>
+                    </ul>
+                </div>
+
+                <!-- Add other roles similarly -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Projects</h2>
+            <div class="project-grid">
+
+                <div class="project-card" data-aos="fade-up">
+                    <h3>NASA Psyche Mission Visualization</h3>
+                    <p>2D/3D web simulation of the metal-rich asteroid Psyche using JavaScript & NASA data, boosting outreach by 30%.</p>
+                </div>
+
+                <div class="project-card" data-aos="fade-up">
+                    <h3>AccessibilityAI</h3>
+                    <p>AI-powered tool enhancing online learning accessibility for visually impaired learners. 2nd place in Zoom AI Spark Challenge.</p>
+                </div>
+
+                <!-- More projects -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Skills</h2>
+            <div class="skills-grid">
+                <span>Python</span>
+                <span>SQL</span>
+                <span>C++</span>
+                <span>JavaScript</span>
+                <span>React.js</span>
+                <span>Node.js</span>
+                <span>Azure</span>
+                <span>AWS</span>
+                <span>Power BI</span>
+                <span>SwiftUI</span>
+                <span>Blender</span>
+                <span>Machine Learning</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Certifications</h2>
+            <ul class="cert-list">
+                <li>Stanford: Specialization in Machine Learning</li>
+                <li>Microsoft: Generative AI, Data Analysis</li>
+                <li>AWS: Introduction to Machine Learning</li>
+                <li>University of Michigan: AR/VR/MR/XR Apps Development</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container" data-aos="fade-up">
+            <h2>Contact</h2>
+            <p>Let’s connect! Email me at <a href="mailto:tjalan@asu.edu">tjalan@asu.edu</a> or use the form below:</p>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Tanav Jalan | <a href="https://www.linkedin.com/in/tanav-jalan/" target="_blank">LinkedIn</a> | <a href="https://github.com/tanavjalan2003" target="_blank">GitHub</a></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({ duration: 800 });
+    </script>
+
+</body>
+</html>
